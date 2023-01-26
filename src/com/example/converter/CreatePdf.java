@@ -11,7 +11,7 @@ public class CreatePdf {
         pdfdoc.addPage(new PDPage());
 
         //path where the PDF file will be store
-        pdfdoc.save("/Users/sarvarkhalimov/Sample.pdf");
+        pdfdoc.save("/Users/sarvarkhalimov/Downloads/Sample.pdf");
 
         //prints the message if the PDF is created successfully
         System.out.println("PDF created");
