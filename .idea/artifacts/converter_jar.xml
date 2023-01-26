@@ -12,6 +12,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/../pdf-library/pdfbox-tools-3.0.0-alpha3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../pdf-library/preflight-app-3.0.0-alpha3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../pdf-library/pdfbox-debugger-3.0.0-alpha3.jar" path-in-jar="/" />
+      <element id="directory" name="result" />
     </root>
   </artifact>
 </component>

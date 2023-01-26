@@ -7,6 +7,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <groupId>com.javatpoint.application1</groupId>
     <artifactId>my-app</artifactId>
     <version>17</version>
+    <packaging>war</packaging>
 
     <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
     <dependencies>
@@ -22,6 +23,26 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <version>5.5.13.2</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <!-- Package as an executable jar/war -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
