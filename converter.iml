@@ -19,6 +19,7 @@
         <jarDirectory url="file://$MODULE_DIR$/../pdf-library" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.itextpdf:itextpdf:5.5.13.2" level="project" />
   </component>
 </module>
